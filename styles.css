@@ -148,15 +148,18 @@ nav {
 .abtsecond {
   display: flex;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
   display: inline-block;
+  margin-left: -100px; /* Adjust this value to move the content to the left */
 }
+
 .abt {
   color: rgb(5, 255, 255);
 }
 .myPic {
-  height: 40%;
-  width: 40%;
+  width: 250px;
+    border-radius: 50%;
+	height:250px;
 }
 
 /* about section ends */
